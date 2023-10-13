@@ -11,4 +11,4 @@ class QuestionSchema(BaseModel):
 
 
 class QuestionRequest(BaseModel):
-    questions_num: int = Field(description="Number of questions", example=10)
+    questions_num: int = Field(description='Number of questions', example=10)
