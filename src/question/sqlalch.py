@@ -5,8 +5,8 @@ from sqlalchemy import select
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from src.db.models import Question
 from src.db.session import get_async_session
+from src.question.models import Question
 
 
 class QuestionDBRepository:

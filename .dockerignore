@@ -5,8 +5,10 @@
 .idea/
 Makefile
 Dockerfile
-__pycache__/
+**/__pycache__/
 docker-compose-dev.yaml
 .dockerignore
 README.md
 .pre-commit-config.yaml
+.mypy_cache
+images

@@ -1,8 +1,8 @@
 from fastapi import Depends
 
-from src.db.models import Question
-from src.repositories.sqlalch import QuestionDBRepository
-from src.schemas.question import QuestionRequest, QuestionSchema
+from src.question.models import Question
+from src.question.schemas import QuestionRequest, QuestionSchema
+from src.question.sqlalch import QuestionDBRepository
 from src.utils import get_questions
 
 
