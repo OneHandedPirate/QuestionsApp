@@ -1,11 +1,11 @@
 # Question App
-Simple app with only one endpoint
+Simple FastAPI app with only one endpoint
 
 ### Требования:
 - установленный docker/docker-compose
 
 
-### Установка/запуск
+### Установка
 
 - стянуть репозиторий:<br>
     `git clone https://github.com/OneHandedPirate/QuestionsApp.git`
@@ -19,6 +19,8 @@ Simple app with only one endpoint
     `POSTGRES_HOST=db`<br>
     `APP_PORT=8000`<br>
     - Можно оставить их так. По умолчанию после поднятия docker-compose приложение будет висеть на `8000` порту. Для изменения порта приложения нужно изменить `APP_PORT` в файле `.env`
+
+### Запуск:
 - выполнить команду `make up`, которая поднимет `docker-compose-dev.yaml` c FastAPI-приложением и базой данных в detached-режиме.
 
 ### Описание эндпоинтов:
